@@ -442,3 +442,27 @@
 //})
 //
 //const p = new PersonProxy('Nina', 18)
+
+//const person = {
+//	name: 'alex',
+//	age: 25,
+//	keys: true,
+//	test() {
+//		const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+//		let [number1, number2, ...arr2] = arr
+//		console.log(number1)
+//		console.log(number2)
+//		//console.log(number3)
+//		console.log(arr2)
+//	},
+//	hello() {
+//		console.log(this.toString())
+//		Object.entries(person).forEach(entry => {
+//			console.log(entry)
+//			console.log('persons key:', key)
+//			console.log('persons value:', this.key)
+//		})
+//	},
+//}
+//
+//document.body.innerHTML = '<h2>Hello from JS</h2>'
